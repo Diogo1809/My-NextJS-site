@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-function Home () {
+function Sobre () {
     return (<div>
         <h1>Site de Diogo Schwartz</h1>
-        <Link href="/sobre">
-        <a>Acessar página sobre</a>
+        <Link href="/">
+        <a>Acessar página Home</a>
         </Link>
     </div>)
 }
-export default Home
+export default Sobre
